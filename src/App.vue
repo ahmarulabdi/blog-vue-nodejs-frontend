@@ -1,7 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+      <a href="#" class="navbar-brand">Koding IT</a>
+      <div class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a href="/tutorials" class="nav-link">Tutorials</a>
+        </li>
+        <li class="nav-item">
+          <a href="/add" class="nav-link">Add</a>
+        </li>
+      </div>
+    </nav>
   </div>
 </template>
 
