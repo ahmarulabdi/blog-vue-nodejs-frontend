@@ -1,5 +1,6 @@
 # blog-tutorial-nodevue-frontend
-
+## backend
+[backend project for API serve is here](git@github.com:ahmarulabdi/blog-vue-nodejs-frontend.git)
 ## Project setup
 ```
 npm install
