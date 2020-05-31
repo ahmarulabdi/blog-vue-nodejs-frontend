@@ -12,11 +12,11 @@ export default new Router({
             name: "tutorials",
             component: () => import("./components/TutorialsList")
         },
-        // {
-        //     path: "/tutorials/:id",
-        //     name: "tutorial-details",
-        //     component: () => import("./components/Tutorial")
-        // },
+        {
+            path: "/tutorials/:id",
+            name: "tutorial-details",
+            component: () => import("./components/Tutorial")
+        },
         {
             path: "/add",
             name: "add",
